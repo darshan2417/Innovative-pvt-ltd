@@ -1,0 +1,76 @@
+.feature h1{
+    text-align: center;
+}
+.feature h4, h3, h5{
+    margin:auto;
+    text-align:center;
+}
+.feature{
+    background-image: url(images/feature.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+#services h1{
+    text-align: center;
+    text-decoration: underline;
+}
+#digital h1{
+    text-align: center;
+}
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+.image img{
+    max-width: 100%;
+    height:auto;
+}
+.content{
+    flex:1;
+    padding:0 20px;
+}
+@media(max-width:767px){
+    .container{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .image img{
+        margin-bottom: 20px;
+    }
+    .content{
+        padding:0;
+    }
+}
+#host h1,#advertising h1, #modeling h1,#BDM h1, #CSE h1,#enter h1{
+    text-align: center;
+}
+/* .contact{
+    margin-inline-end: auto;
+    display: flex;
+    justify-content: space-around;
+} */
+.us h1{
+    text-align: center;
+}
+.apply{
+    text-align: center;
+}
+button{
+    height:50px;
+    width:100px;
+    background-color: floralwhite;
+}
+.apply a{
+    text-decoration: none;
+    font-size: larger;
+    color:black;
+}
+.last{
+    background-color:black;
+}
+.last h4{
+    color:white;
+}
